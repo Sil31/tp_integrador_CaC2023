@@ -42,12 +42,13 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
+    font-family: 'Raleway', sans-serif;
 }
 
 .nav_header a {
     color: rgb(254, 251, 244);
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 20px;
     cursor: pointer;
     padding: 15px;
 }
@@ -71,16 +72,18 @@ header {
 /* Estilo footer */
 footer {
     width: 100%;
-    background-color: #190019;
-    color: rgb(254, 251, 244);
-    padding: 60px 50px 15px;
+    background: #30343F;
+    color: #fff;
+    padding: 60px 50px 15px;        
+    font-family: 'Raleway', sans-serif;
 }
 
 footer a {
     color: rgb(254, 251, 244);
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 20px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 footer a:visited {
@@ -94,14 +97,14 @@ footer a:hover {
 
 footer p {
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 12px;
     font-weight: 250;
     justify-content: flex-end;
     margin-top: 15px;
 }
 
 .logo_footer img {
-    width: 2.5rem;
+    width: 140px;
 }
 
 .nav_logo {
@@ -116,7 +119,6 @@ footer p {
 .navegador {
     display: flex;
     flex-direction: column;
-    font-size: 0.8rem;
     font-weight: 200;
     line-height: 20px;
 }
@@ -124,7 +126,7 @@ footer p {
 /* Estilo sección Nuevos Ingresos */
 .ingresos_img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("funkos-banner.webp");
-    height: 200px;
+
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -136,6 +138,7 @@ footer p {
     padding: 40px;
     color: #fff;
     line-height: 30px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .nuevos_ingresos::before {
@@ -218,6 +221,7 @@ footer p {
     font-size: 24px;
     line-height: 28.18px;
     color: #4f4f4f;
+    font-family: 'Raleway', sans-serif;
 }
 
 .texto_sugerencia button {
@@ -262,6 +266,7 @@ footer p {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    margin-top: 50px;
 }
 
 .card_ult_lanzamiento {
@@ -270,6 +275,7 @@ footer p {
     align-items: center;
     width: 360px;
     height: 512px;
+    font-family: 'Inter', sans-serif;
 }
 
 .img_ult_lanz {
@@ -288,43 +294,52 @@ footer p {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #251125;
+    width: 96px;
+    height: 30px;
+    background: #FF3333;
     color: rgb(254, 251, 244);
-    padding: 10px 15px;
-    font-size: 0.6rem;
-    border-radius: 0 10px 0 0;
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .texto_ult_lanz {
-    background-color: #4b2754;
-    color: rgb(254, 251, 244);
+    color: #333;
     border-radius: 0 0 10px 10px;
     line-height: 1.5rem;
     padding: 12px;
     width: 100%;
     height: 40%;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .coleccion {
-    font-size: 0.6rem;
-    font-weight: 300;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
 }
 
 .nombre_funko {
-    font-size: 0.8rem;
+    font-size: 18px;
     font-weight: 800;
+    line-height: 21px;
 }
 
 .precio {
-    font-size: 0.7rem;
+    font-size: 16px;
     font-weight: 200;
+    line-height: 16px;
 }
 
 .cuotas {
-    font-size: 0.7rem;
-    font-weight: 200;
-    color: #8cbad1;
+    font-size: 12px;
+    font-weight: 700;
+    color: #1D84B5;
+    line-height: 16px;
 }
 
 /* Estilo responsive */
