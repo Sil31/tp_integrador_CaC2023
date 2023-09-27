@@ -125,7 +125,7 @@ footer p {
 
 /* Estilo sección Nuevos Ingresos */
 .ingresos_img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("funkos-banner.webp");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img_home/funkos-banner.webp");
 
     width: 100%;
     background-repeat: no-repeat;
