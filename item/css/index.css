@@ -1,0 +1,68 @@
+/* EXTERNALS */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css');
+@import url('https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css');
+
+/* MISCELANIEOUS */
+
+@import url('/item/css/misc/animations.css');
+@import url('/item/css/misc/normalize.css');
+@import url('/item/css/misc/variables.css');
+
+
+/* PARTIALS */
+
+@import url('/item/css/partials/footer.css');
+@import url('/item/css/partials/header.css');
+
+
+/* COMPONENTS */
+
+@import url('/item/css/components/buttons.css');
+@import url('/item/css/components/card.css');
+@import url('/item/css/components/form.css');
+@import url('/item/css/components/slider.css');
+
+/* PAGES */
+
+@import url('/item/css/pages/item.css');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
